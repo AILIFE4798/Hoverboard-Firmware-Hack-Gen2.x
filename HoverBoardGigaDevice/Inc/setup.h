@@ -33,7 +33,7 @@
 
 //#include "gd32f1x0.h"
 #include "../Inc/config.h"
-
+#include "../Inc/target.h"
 //#define USART0_RX_BUFFERSIZE 1
 //#define USART1_RX_BUFFERSIZE 1
 #define USART0_DATA_RX_ADDRESS ((uint32_t)0x40013824)	//((uint32_t)0x40013824)

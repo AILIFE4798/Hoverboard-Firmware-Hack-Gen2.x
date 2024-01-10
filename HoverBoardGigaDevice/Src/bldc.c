@@ -133,6 +133,7 @@ extern uint32_t steerCounter;								// Steer counter for setting update rate
 // Calculation-Routine for BLDC => calculates with 16kHz
 void CalculateBLDC(void)
 {
+	/*
 	int y = 0;     // yellow = phase A
 	int b = 0;     // blue   = phase B
 	int g = 0;     // green  = phase C
@@ -192,7 +193,7 @@ void CalculateBLDC(void)
   }
 
 	//if (timedOut == SET)	DEBUG_LedSet((steerCounter%2) < 1,0)		
-	
+	*/
 	// Read hall sensors
 	hall_a = digitalRead(HALL_A);
 	hall_b = digitalRead(HALL_B);
@@ -209,7 +210,7 @@ void CalculateBLDC(void)
 		//gpio_bit_write(LED_ORANGE_PORT, LED_ORANGE, hall_b);
 		//gpio_bit_write(LED_RED_PORT, LED_RED, hall_c);
 	#endif
-	
+	/*
 	// Determine current position based on hall sensors
   hall = hall_a * 1 + hall_b * 2 + hall_c * 4;
   pos = hall_to_pos[hall];
@@ -253,4 +254,5 @@ void CalculateBLDC(void)
 	
 	// Safe last position
 	lastPos = pos;
+	*/
 }

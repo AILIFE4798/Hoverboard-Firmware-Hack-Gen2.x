@@ -33,7 +33,7 @@
 #include "../Inc/it.h"
 
 #define TIMEOUT_FREQ  1000
-
+/*
 // timeout timer parameter structs
 timer_parameter_struct timeoutTimer_paramter_struct;
 
@@ -123,7 +123,7 @@ void TimeoutTimer_init(void)
 	// Enable timer
 	timer_enable(TIMER_TIMEOUT);
 }
-
+*/
 //----------------------------------------------------------------------------
 // Initializes the GPIOs
 //----------------------------------------------------------------------------
@@ -291,6 +291,7 @@ void GPIO_init(void)
 //----------------------------------------------------------------------------
 // Initializes the PWM
 //----------------------------------------------------------------------------
+/*
 void PWM_init(void)
 {
 	// Enable timer clock
@@ -320,7 +321,7 @@ void PWM_init(void)
 	timer_channel_output_shadow_config(TIMER_BLDC, TIMER_BLDC_CHANNEL_G, TIMER_OC_SHADOW_DISABLE);
 	timer_channel_output_shadow_config(TIMER_BLDC, TIMER_BLDC_CHANNEL_B, TIMER_OC_SHADOW_DISABLE);
 	timer_channel_output_shadow_config(TIMER_BLDC, TIMER_BLDC_CHANNEL_Y, TIMER_OC_SHADOW_DISABLE);
-	
+	*/
 	// Set output channel PWM type to PWM1
 	/*
 	CH0COMCTL[2:0]
@@ -330,7 +331,7 @@ void PWM_init(void)
 	111: PWM mode1.
 	When counting up, OxCPRE is low when the counter is smaller than TIMER0_CHxCV, and high otherwise.
 	When counting down, OxCPRE is high when the counter is larger than TIMER0_CHxCV, and low otherwise.
-	*/
+	
 	timer_channel_output_mode_config(TIMER_BLDC, TIMER_BLDC_CHANNEL_G, TIMER_OC_MODE_PWM1);
 	timer_channel_output_mode_config(TIMER_BLDC, TIMER_BLDC_CHANNEL_B, TIMER_OC_MODE_PWM1);
 	timer_channel_output_mode_config(TIMER_BLDC, TIMER_BLDC_CHANNEL_Y, TIMER_OC_MODE_PWM1);
@@ -459,7 +460,7 @@ void ADC_init(void)
 	// Set ADC to scan mode
 	adc_special_function_config(ADC_SCAN_MODE, ENABLE);
 }
-
+*/
 /*
 //----------------------------------------------------------------------------
 // Initializes the usart master slave
@@ -522,7 +523,7 @@ void USART_MasterSlave_init(void)
 	#endif
 }
 */
-
+/*
 void USART1_Init(uint32_t iBaud)
 {
 #ifdef HAS_USART1
@@ -671,7 +672,7 @@ void USART0_Init(uint32_t iBaud)
 #endif
 }
 
-/*
+
 //----------------------------------------------------------------------------
 // Initializes the usart steer/bluetooth
 //----------------------------------------------------------------------------

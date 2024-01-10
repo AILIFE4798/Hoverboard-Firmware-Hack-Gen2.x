@@ -560,29 +560,9 @@
               <FilePath>.\Inc\remote.h</FilePath>
             </File>
             <File>
-              <FileName>remoteUart.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Inc\remoteUart.h</FilePath>
-            </File>
-            <File>
-              <FileName>remoteCrsf.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Inc\remoteCrsf.h</FilePath>
-            </File>
-            <File>
               <FileName>remoteDummy.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Inc\remoteDummy.h</FilePath>
-            </File>
-            <File>
-              <FileName>remoteUartBus.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Inc\remoteUartBus.h</FilePath>
-            </File>
-            <File>
-              <FileName>commsMasterSlave.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Inc\commsMasterSlave.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -1148,29 +1128,9 @@
               <FilePath>.\Inc\remote.h</FilePath>
             </File>
             <File>
-              <FileName>remoteUart.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Inc\remoteUart.h</FilePath>
-            </File>
-            <File>
-              <FileName>remoteCrsf.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Inc\remoteCrsf.h</FilePath>
-            </File>
-            <File>
               <FileName>remoteDummy.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Inc\remoteDummy.h</FilePath>
-            </File>
-            <File>
-              <FileName>remoteUartBus.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Inc\remoteUartBus.h</FilePath>
-            </File>
-            <File>
-              <FileName>commsMasterSlave.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Inc\commsMasterSlave.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -1186,7 +1146,7 @@
       <TargetName>MM32SPIN05</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
-      <pCCUsed>6190000::V6.19::ARMCLANG</pCCUsed>
+      <pCCUsed>6210000::V6.21::ARMCLANG</pCCUsed>
       <uAC6>1</uAC6>
       <TargetOption>
         <TargetCommonOption>
@@ -1736,29 +1696,9 @@
               <FilePath>.\Inc\remote.h</FilePath>
             </File>
             <File>
-              <FileName>remoteUart.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Inc\remoteUart.h</FilePath>
-            </File>
-            <File>
-              <FileName>remoteCrsf.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Inc\remoteCrsf.h</FilePath>
-            </File>
-            <File>
               <FileName>remoteDummy.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Inc\remoteDummy.h</FilePath>
-            </File>
-            <File>
-              <FileName>remoteUartBus.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Inc\remoteUartBus.h</FilePath>
-            </File>
-            <File>
-              <FileName>commsMasterSlave.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Inc\commsMasterSlave.h</FilePath>
             </File>
           </Files>
         </Group>

@@ -5,11 +5,11 @@
 #include "../Inc/defines.h"
 #include "../Inc/it.h"
 #include "../Inc/bldc.h"
-#include "../Inc/commsMasterSlave.h"
+//#include "../Inc/commsMasterSlave.h"
 
 //#include "../Inc/commsSteering.h"
 
-#include "../Inc/commsBluetooth.h"
+//#include "../Inc/commsBluetooth.h"
 #include "stdio.h"
 #include "stdlib.h"
 #include "string.h"
@@ -268,7 +268,7 @@ uint32_t iTimeNextLoop = 0;
 //----------------------------------------------------------------------------
 int main (void)
 {
-	
+	/*
 	#ifdef MASTER_OR_SINGLE
 		FlagStatus enableSlave = RESET;
 		FlagStatus chargeStateLowActive = SET;
@@ -295,9 +295,10 @@ int main (void)
 	
 	// Init timeout timer
 	TimeoutTimer_init();
-	
+	*/
 	// Init GPIOs
 	GPIO_init();
+	
 	DEBUG_LedSet(SET,1)
 	digitalWrite(UPPER_LED,SET);
 
@@ -305,7 +306,7 @@ int main (void)
 	// Activate self hold direct after GPIO-init
 	digitalWrite(SELF_HOLD,SET);
 	//gpio_bit_write(SELF_HOLD_PORT, SELF_HOLD_PIN, SET);
-
+/*
 	#ifdef USART0_BAUD
 			USART0_Init(USART0_BAUD);
 	#endif
@@ -323,7 +324,7 @@ int main (void)
 	// afterwards watchdog will be fired
 	fwdgt_counter_reload();
 
-
+*/
 	// Startup-Sound
 	BUZZER_MelodyDown()
 
@@ -336,6 +337,7 @@ int main (void)
 
 	DEBUG_LedSet(RESET,1)
 	digitalWrite(UPPER_LED,RESET);
+	
   while(1)
 	{
 		if (millis() < iTimeNextLoop)	
@@ -346,9 +348,12 @@ int main (void)
 		DEBUG_LedSet(	(steerCounter%200) < 10	,1)
 		digitalWrite(MOSFET_OUT,	(steerCounter%200) < 100	);	// onboard led blinking :-)
 		
+		CalculateBLDC();//testing HALL2LED
+		/*
 		#ifdef SLAVE	
 			SetPWM(pwmSlave);
 		#else	//MASTER_OR_SINGLE
+		
 			if ((steerCounter % 2) == 0)	// something like DELAY_IN_MAIN_LOOP = 10 ms
 			{
 				RemoteUpdate();
@@ -494,7 +499,7 @@ int main (void)
 		//gpio_bit_write(LOWER_LED_PORT, LOWER_LED_PIN, wState & STATE_LedDown ? SET : RESET);
 
 		if (wState & STATE_Shutoff)	ShutOff();
-
+*/
 
 		//Delay(DELAY_IN_MAIN_LOOP);
 		
