@@ -31,7 +31,7 @@
 
 #include "../Inc/defines.h"
 #include "../Inc/it.h"
-
+#include "../Inc/target.h"
 #define TIMEOUT_FREQ  1000
 /*
 // timeout timer parameter structs

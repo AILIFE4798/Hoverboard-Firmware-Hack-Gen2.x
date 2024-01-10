@@ -409,31 +409,6 @@
               <FileType>1</FileType>
               <FilePath>.\Src\led.c</FilePath>
             </File>
-            <File>
-              <FileName>remoteUart.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Src\remoteUart.c</FilePath>
-            </File>
-            <File>
-              <FileName>remoteCrsf.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Src\remoteCrsf.c</FilePath>
-            </File>
-            <File>
-              <FileName>remoteDummy.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Src\remoteDummy.c</FilePath>
-            </File>
-            <File>
-              <FileName>remoteUartBus.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Src\remoteUartBus.c</FilePath>
-            </File>
-            <File>
-              <FileName>commsMasterSlave.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Src\commsMasterSlave.c</FilePath>
-            </File>
           </Files>
         </Group>
         <Group>
@@ -977,31 +952,6 @@
               <FileType>1</FileType>
               <FilePath>.\Src\led.c</FilePath>
             </File>
-            <File>
-              <FileName>remoteUart.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Src\remoteUart.c</FilePath>
-            </File>
-            <File>
-              <FileName>remoteCrsf.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Src\remoteCrsf.c</FilePath>
-            </File>
-            <File>
-              <FileName>remoteDummy.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Src\remoteDummy.c</FilePath>
-            </File>
-            <File>
-              <FileName>remoteUartBus.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Src\remoteUartBus.c</FilePath>
-            </File>
-            <File>
-              <FileName>commsMasterSlave.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Src\commsMasterSlave.c</FilePath>
-            </File>
           </Files>
         </Group>
         <Group>
@@ -1544,31 +1494,6 @@
               <FileName>led.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Src\led.c</FilePath>
-            </File>
-            <File>
-              <FileName>remoteUart.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Src\remoteUart.c</FilePath>
-            </File>
-            <File>
-              <FileName>remoteCrsf.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Src\remoteCrsf.c</FilePath>
-            </File>
-            <File>
-              <FileName>remoteDummy.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Src\remoteDummy.c</FilePath>
-            </File>
-            <File>
-              <FileName>remoteUartBus.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Src\remoteUartBus.c</FilePath>
-            </File>
-            <File>
-              <FileName>commsMasterSlave.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Src\commsMasterSlave.c</FilePath>
             </File>
           </Files>
         </Group>
